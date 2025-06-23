@@ -1,0 +1,190 @@
+/*  Browser Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #789de5
+  url(https://cdn.glitch.global/45652d2c-5fac-4d86-95c0-f4dce12d16e9/girl-8435340_1920.png?v=1750453817977)
+  no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Navigation Styling for header Navbar :: Flexbox */
+
+.b-user {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.b-user__ul {
+  display: flex;
+}
+
+.b-user__li {
+  list-style-type: none;
+  font-size: 1rem;
+  font-family: "Jost", sans-serif;
+  margin: 0.5rem;
+}
+
+.b-user__anchor {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.b-user__anchor:hover {
+  text-decoration: underline;
+}
+
+.b-user__div:hover {
+  background-color: hsl(231, 40%, 30%, 1);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Main content, search Bar */
+
+.b-search {
+  position: relative;
+  text-align: center;
+  top: 80px;
+}
+
+/* Google Letters */
+.b-search__header {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  letter-spacing: -0.75rem;
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 2px 2px 8px black;
+}
+
+.--green {
+  color: #21c930;
+}
+
+.--blue {
+  color: #1ac5d9;
+}
+
+.--red {
+  color: #e61919;
+}
+
+.--orange {
+  color: #fda019;
+}
+
+/* styling for border and content within search bar search-bar is the BLOCK*/
+
+.search-bar {
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  margin: 0 auto;
+  padding: 2px;
+  background-color: white;
+}
+
+.search-bar__form {
+  display: flex;
+}
+/* Do I even need a label? */
+.search-bar__label {
+  display: none;
+}
+
+/*  Max width and width is needed to fully see the default text*/
+.search-bar__input {
+  max-width: 50%;
+  min-width: 185px;
+  border: none;
+  outline: none;
+}
+
+.search-bar__btn {
+  all: unset;
+  cursor: pointer;
+}
+.search-bar__img {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.b-recent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-recent-search {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: hsl(217, 40%, 40%);
+  padding: 10px;
+  margin: 25px 10px;
+}
+
+.b-recent-search__img {
+  width: 3.5rem;
+  height: 5rem;
+}
+
+.b-recent-search:hover {
+  background-color: hsl(217, 35%, 60%);
+}
+
+/* Footer */
+
+.web-footer__division {
+  width: 120px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: hsl(217, 40%, 40%);
+  position: absolute;
+  bottom: 1rem;
+  left: 0.75rem;
+  text-align: center;
+  box-shadow: 1px 1px 3px 0 #575757;
+  color: #789de5;
+  padding: 10px 0;
+}
+
+.web-footer__anchor {
+  color: #789de5;
+}
+
+.web-footer__btn {
+  position: absolute;
+  bottom: 1.2rem;
+  right: 0.75rem;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: hsl(217, 40%, 40%);
+  box-shadow: 1px 1px 3px 0 #575757;
+  color: #789de5;
+}
+
+.web-footer__img {
+  width: 1rem;
+}
+
+.web-footer__btn:hover {
+  background-color: hsl(217, 29%, 49%, 1);
+}

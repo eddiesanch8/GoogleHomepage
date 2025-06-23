@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Eduardo's Google</title>
+
+    <!--     Links to External CSS and JS     -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <script src="js/index.js" defer></script>
+
+    <!--      Google Font    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
+    />
+  </head>
+  <body>
+    <!--   Main Code for Left-Justified NAV Bar      -->
+    <!--    Main block is: b-user -->
+
+    <header class="b-user">
+      <nav class="b-user__nav">
+        <ul class="b-user__ul">
+          <li class="b-user__li">
+            <a class="b-user__anchor" href="">About</a>
+          </li>
+          <li class="b-user__li">
+            <a class="b-user__anchor" href="">Store</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="b-user__nav">
+        <ul class="b-user__ul">
+          <li class="b-user__li">
+            <a class="b-user__anchor" href="">Gmail</a>
+          </li>
+          <li class="b-user__li">
+            <a class="b-user__anchor" href=""> Images</a>
+          </li>
+          <div class="b-user__div">
+            <li class="b-user__li">
+              <a class="b-user__anchor" href=""
+                ><img
+                  class="b-user__img"
+                  src="images/beaker_img.svg"
+                  alt="explore chrome"
+                />
+              </a>
+            </li>
+          </div>
+          <div class="b-user__div">
+            <li class="b-user__li">
+              <a class="b-user__anchor" href=""
+                ><img
+                  class="b-user__img"
+                  src="images/apps_icon.svg"
+                  alt="navigate to more apps"
+                />
+              </a>
+            </li>
+          </div>
+          <div class="b-user__div">
+            <li class="b-user__li">
+              <a class="b-user__anchor" href=""
+                ><img
+                  class="b-user__img"
+                   src="images/profile_pic.svg" 
+                   alt="profile picture"
+              /></a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <!-- <img src="images/chrome_background.png" alt="incorrectfile"> -->
+    <main>
+      <!-- Block is: .b-search, creates google logo with text    -->
+      <section class="b-search">
+        <h1 class="b-search__header">
+          <span class="b-search__header --blue">G</span>
+          <span class="b-search__header --red">o</span>
+          <span class="b-search__header --orange">o</span>
+          <span class="b-search__header --blue">g</span>
+          <span class="b-search__header --green">l</span>
+          <span class="b-search__header --red">e</span>
+        </h1>
+
+        <!--         Adds a search bar -->
+
+        <div class="search-bar">
+          <form class="search-bar__form" id="search_bar_id">
+            <button class="search-bar__btn">
+              <img
+                class="search-bar__img"
+                src="images/search_btn.svg"
+                alt="maginifying glass"
+              />
+            </button>
+            <label class="search-bar__label" for="search_query"> </label>
+            <input
+              class="search-bar__input"
+              type="search"
+              id="search_query"
+              name="search_query"
+              placeholder="Search Google or Type a Url"
+              required
+            />
+            <img
+              class="search-bar__img"
+              src="images/voice_search.svg"
+              alt="voice search"
+            />
+            <img
+              class="search-bar__img"
+              src="images/img_search.svg"
+              alt="search by image"
+            />
+          </form>
+        </div>
+
+        <div class="b-recent">
+          <div class="b-recent-search">
+            <a class="b-recent-search__anchor"
+              ><img
+                class="b-recent-search__img"
+                src="images/circle.svg"
+                alt="recent app"
+              />
+            </a>
+          </div>
+          <div class="b-recent-search">
+            <a class="b-recent-search__anchor"
+              ><img
+                class="b-recent-search__img"
+                src="images/circle.svg"
+                alt="recent app"
+              />
+            </a>
+          </div>
+          <div class="b-recent-search">
+            <a class="b-recent-search__anchor"
+              ><img
+                class="b-recent-search__img"
+                src="images/circle.svg"
+                alt="recent app"
+              />
+            </a>
+          </div>
+          <div class="b-recent-search">
+            <a class="b-recent-search__anchor"
+              ><img
+                class="b-recent-search__img"
+                src="images/circle.svg"
+                alt="recent app"
+              />
+            </a>
+          </div>
+          <div class="b-recent-search">
+            <a class="b-recent-search__anchor"
+              ><img
+                class="b-recent-search__img"
+                src="images/add_icon.svg"
+                alt="add more apps"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--    End of Main Content-->
+
+    <footer class="web-footer">
+      <!--     Credit for Background Image   -->
+      <div class="web-footer__division">
+        <p class="web-footer__caption"> Image provided under CC License by:<a class="web-footer__anchor" href="https://pixabay.com/vectors/girl-clouds-stars-art-calm-anime-8435340/"> andsproject</a> on <a class="web-footer__anchor" href="https://pixabay.com/">pixabay</a></p>
+      </div>
+
+      <!--   Customize Chrome Button     -->
+      <div class="web-footer__division--2">
+        <button class="web-footer__btn"> <img class="web-footer__img" src="images/edit_btn.svg"> Customize Chrome</button>
+      </div>
+    </footer>
+  </body>
+</html>
