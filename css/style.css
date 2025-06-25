@@ -7,10 +7,11 @@
 }
 body {
   background: #789de5
-  url(https://cdn.glitch.global/45652d2c-5fac-4d86-95c0-f4dce12d16e9/girl-8435340_1920.png?v=1750453817977)
+  url(../images/chrome_background.png)
   no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
+
 }
 /* Navigation Styling for header Navbar :: Flexbox */
 
